@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-head: 'Baloo 2', cursive;
+    --font-body: 'DM Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #FFF9F0;
+    color: #1A1A2E;
+  }
+}
+
+.font-head {
+  font-family: 'Baloo 2', cursive;
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 3s ease-in-out infinite;
+}

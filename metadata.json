@@ -1,0 +1,6 @@
+{
+  "name": "NourishNet - AI Food Waste to Zero Hunger",
+  "description": "Zero Food Waste, Zero Hunger redistribution platform connecting Restaurants, NGOs, FSSAI Mediators, Delivery Fleets, and Biogas Plants with Node.js, Express, and PostgreSQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
